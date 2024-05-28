@@ -51,7 +51,7 @@ namespace Libraries.ViewModel
                 Convert.ToInt32(Age);
                 isCheck = true;
             }
-            catch (Exception ex) { Age = "ОШИБКА"; }
+            catch (Exception ex) {}
 
             if(isCheck)
             {
